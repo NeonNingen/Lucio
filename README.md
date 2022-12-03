@@ -1,6 +1,6 @@
 ```py
 from life.species import Human
-from skills import python, java, c#, other
+from skills import python, java, cSharp, other
 from datetime import date, time
 from random import choices
 import existence
@@ -25,8 +25,8 @@ class ZainCheema(Human):
             'java': [
                 java.JavaX.swing, java.Awt, java.Lang, java.Util
             ],
-            'c#': [
-                c#.HLSLShader, c#.UnityEngine, c#.Cake
+            'cSharp': [
+                cSharp.HLSLShader, cSharp.UnityEngine, cSharp.Cake
             ],
             'other': [
                 other.ESports, other.Music, other.Weeb
